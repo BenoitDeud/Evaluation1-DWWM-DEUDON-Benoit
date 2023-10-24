@@ -1,0 +1,163 @@
+body {
+    background-color: #252525;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #aa8453;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+/*header*/
+header {
+    color: #aa8453;
+    font-size: 60px;
+    display: flex;
+    background-color: black;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: solid 2px white;
+}
+
+/* Carroussel */
+.kebab {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: ridge black 10px;
+    height: 850px;
+}
+
+/*boutons inscription login*/
+.boutons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+}
+
+.boutonsK {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(255, 254, 254);
+    width: 120%;
+    text-align: center;
+    border: ridge black 10px;
+}
+
+
+/*formulaire*/
+#jeVaisToutCasser {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(115deg, rgba(158, 123, 58, 0.8), rgba(215, 78, 73, 0.7)), url(../IMAGES/doner-viande-dans-pain-planche-bois.jpg);
+    padding: 2%;
+    color: #aa8453;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 1%;
+    background-color: rgb(65, 56, 56);
+    padding: 1%;
+    font-size: 25px;
+    margin-bottom: 2%;
+    gap: 10px;
+
+}
+
+#submit {
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#submit:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.yolo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#formulaireConnexion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(71, 68, 68);
+    padding: 2%;
+}
+
+#connexion {
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#connexion:hover {
+    background-color: chartreuse;
+}
+
+/* Responsive tablette*/
+@media only screen and (min-width:601px) and (max-width:912px) {
+    #formulaire {
+        width: 100%;
+
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    #submit {
+        width: 40%;
+    }
+
+    #formulaireConnexion {
+        width: 100%;
+    }
+
+    #connexion {
+        width: 40%;
+    }
+}
+
+/*responsive mobile*/
+@media only screen and (max-width:600px) {
+    #formulaire {
+        width: 100%;
+    }
+
+    .form {
+        width: 80%;
+        margin-bottom: 2%;
+        gap: 10px;
+    }
+
+    #submit {
+        width: 40%;
+    }
+
+    #formulaireConnexion {
+        width: 100%;
+    }
+
+    #connexion {
+        width: 40%;
+    }
+}
