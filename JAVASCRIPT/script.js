@@ -6,7 +6,7 @@ myFormulaire.addEventListener('submit', function (e) {
   //Nom
 
   let myNom = document.getElementById("nom")
-  let regexNom = /^(?=.{3,})/
+  let regexNom = /^(?=.{3,})[A-Za-z-\-/-é-è-ô-î-ï]*$/;
 
   if (myNom.value == "") {
     let myError = document.getElementById("error");
@@ -34,7 +34,7 @@ myFormulaire.addEventListener('submit', function (e) {
 
   //Prenom
   let myPrenom = document.getElementById("prenom");
-  let regexPrenom = /^(?=.{3,})/
+  let regexPrenom = /^(?=.{3,})[A-Za-z-\-/-é-è-ô-î-ï]*$/;
 
   if (myPrenom.value == "") {
     let myErrorDeux = document.getElementById("errorDeux");
@@ -87,7 +87,7 @@ myFormulaire.addEventListener('submit', function (e) {
 
   //Mot de passe
   let myMdps = document.getElementById("mdps");
-  let regexMdps = /^(?=.*[a-z])^(?=.{8,})(?=.*[A-Z])(?=.*[0-9])(?=.*[#+-^[\]])/;
+  let regexMdps = /^(?=.*[a-z])(?=.{8,})(?=.*[A-Z])(?=.*[0-9])(?=.*[\#/\+/\-/\^/\[/\]/])/;
 
   if (myMdps.value == "") {
     let myErrorQuatre = document.getElementById("errorQuatre");

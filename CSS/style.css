@@ -17,9 +17,15 @@ header {
     background-color: black;
     padding: 1%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     font-weight: bold;
     border-bottom: solid 2px white;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
 }
 
 /* Carroussel */
@@ -29,7 +35,7 @@ header {
     margin-top: 2%;
     margin-bottom: 2%;
     border: ridge black 10px;
-    height: 850px;
+    height: 750px;
 }
 
 /*boutons inscription login*/
@@ -52,6 +58,12 @@ header {
 
 
 /*formulaire*/
+.flexForum2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 #jeVaisToutCasser {
     display: flex;
     align-items: center;
@@ -93,12 +105,15 @@ header {
     gap: 5px;
 }
 
+/* LOGIN */
 #formulaireConnexion {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(71, 68, 68);
-    padding: 2%;
+    background: linear-gradient(115deg, rgba(158, 123, 58, 0.8), rgba(215, 78, 73, 0.7)), url(../IMAGES/doner-viande-dans-pain-planche-bois.jpg);
+    padding: 12%;
+    color: #aa8453;
+    
 }
 
 #connexion {
@@ -110,7 +125,22 @@ header {
 }
 
 #connexion:hover {
-    background-color: chartreuse;
+    background-color: rgb(191, 22, 98);
+}
+
+/* FORUM */
+
+.flexForum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+h2{
+    font-size: 40px;
+    width: 85%;
+    margin-left: 7.5%;
 }
 
 /* Responsive tablette*/

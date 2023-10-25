@@ -18,10 +18,27 @@
 
 <body>
     <header>
-        <h1>Connexion</h1>
+        <div class="flexForum2">
+        <p>Connexion</p>
+        <a href="../index.html">Accueil</a>
+        </div>
     </header>
 
-    
+    <form action="../HTML/forum.html" method="get" id="formulaireConnexion">
+        <div class="form colorSize">
+            <label for="mai">Votre identifiant (mail) :<span id="trois"></span></label>
+            <input type="text" name="mai" id="mai" placeholder="aaaaaaaaa@aaaaaaaa.aa">
+        </div>
+
+        <div class="form colorSize">
+            <label for="motDP">Votre mot de passe :<span id="quatre"></span></label>
+            <input type="text" name="motDP" id="motDP" placeholder="**************">
+        </div>
+
+        <input type="submit" value="connexion" id="connexion">
+    </form>
+
+    <script src="../JAVASCRIPT/recuperation.js"></script>
     
 </body>
 

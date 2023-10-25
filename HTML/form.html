@@ -18,14 +18,17 @@
 
 <body>
     <header>
-        <h1>Inscription</h1>
+        <div class="flexForum2">
+        <p>Inscription</p><br>
+        <a href="../index.html">Accueil</a>
+        </div>
     </header>
     
 
     <form action="../HTML/login.html" id="jeVaisToutCasser" method="get">
 
         <div class="form">
-            <label for="nom">Votre nom :<span id="error"></span></label>
+            <label for="nom">Votre nom (3 caractères minimum, pas de chiffre) : <span id="error"></span></label>
             <input type="text" name="nom" placeholder="Martin" id="nom">
         </div>
 
@@ -40,7 +43,7 @@
         </div>
 
         <div class="form">
-            <label for="mdps">Votre mot de passe :<span id="errorQuatre"></span></label>
+            <label for="mdps">Votre mot de passe (doit contenir une maj, une min, un chiffre et un caractère spécial (#+-^[])) :<span id="errorQuatre"></span></label>
             <input type="text" name="mdps" id="mdps" placeholder="**************">
         </div>
 
