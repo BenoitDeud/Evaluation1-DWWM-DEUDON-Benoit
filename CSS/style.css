@@ -21,11 +21,18 @@ header {
     justify-content: space-around;
     font-weight: bold;
     border-bottom: solid 2px white;
-    
+
 }
-h1{
+
+h1 {
     display: flex;
     justify-content: center;
+}
+
+/*Main index*/
+.mainIndex {
+    background: linear-gradient(115deg, rgba(46, 72, 24, 0.8), rgba(71, 7, 5, 0.7)), url(../IMAGES/doner-viande-dans-pain-planche-bois.jpg);
+    padding: 2%;
 }
 
 /* Carroussel */
@@ -62,8 +69,9 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
+
 #jeVaisToutCasser {
     display: flex;
     align-items: center;
@@ -113,7 +121,7 @@ h1{
     background: linear-gradient(115deg, rgba(158, 123, 58, 0.8), rgba(215, 78, 73, 0.7)), url(../IMAGES/doner-viande-dans-pain-planche-bois.jpg);
     padding: 12%;
     color: #aa8453;
-    
+
 }
 
 #connexion {
@@ -129,7 +137,10 @@ h1{
 }
 
 /* FORUM */
-
+.mainForum{
+    
+    padding: 2%;
+}
 .flexForum {
     display: flex;
     flex-direction: row;
@@ -137,10 +148,69 @@ h1{
     margin-bottom: 1%;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+    text-align: center;
+    font-size: 35px;
     width: 85%;
     margin-left: 7.5%;
+}
+
+.gestionImage{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(115deg, rgba(226, 221, 215, 0.8), rgba(226, 160, 157, 0.7)), url(../IMAGES/doner-viande-dans-pain-planche-bois.jpg);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: solid white 2px;
+}
+.blablaKebab{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2%;
+    line-height: 120%;
+}
+
+/* forum cards bootstrap */
+.card {
+    background: linear-gradient(115deg, rgba(134, 240, 144, 0.8), rgba(225, 93, 89, 0.7)), url(../IMAGES/doner-viande-dans-pain-planche-bois.jpg);
+    border: ridge 5px rgb(255, 255, 255);
+}
+
+.cartesFlex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.boutonFlex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    color: #aa8453;
+    background-color: #252525;
+    border: solid rgb(255, 255, 255) 2px;
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 350px;
 }
 
 /* Responsive tablette*/

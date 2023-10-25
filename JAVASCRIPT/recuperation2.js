@@ -8,3 +8,4 @@ document.getElementById("nom").innerHTML = nom;
 let date = new Date();
 document.getElementById('dateToday').innerHTML = date.toLocaleDateString();
 document.getElementById('heure').innerHTML = date.toLocaleTimeString();
+
