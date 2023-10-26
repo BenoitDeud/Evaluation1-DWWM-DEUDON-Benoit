@@ -57,6 +57,8 @@ myFormulaire.addEventListener('submit', function (e) {
     myError.innerHTML = " Tomate";
     myError.style.color = 'green';
     myError.style.fontStyle = "italic";
+    let userFirstnameVal = document.getElementById("prenom").value;
+    localStorage.setItem("prenom",userFirstnameVal);
   };
 
   //Mail
@@ -83,6 +85,8 @@ myFormulaire.addEventListener('submit', function (e) {
     myError.innerHTML = " Oignon";
     myError.style.color = 'green';
     myError.style.fontStyle = "italic";
+    let mailVal = document.getElementById("mail").value;
+    localStorage.setItem("mail",mailVal);
   };
 
   //Mot de passe
@@ -110,6 +114,8 @@ myFormulaire.addEventListener('submit', function (e) {
     myError.innerHTML = " Olive verte";
     myError.style.color = 'green';
     myError.style.fontStyle = "italic";
+    let passwordVal = document.getElementById("mdps").value;
+    localStorage.setItem("mdps",passwordVal);
   };
 
   //Confirmer mot de passe
@@ -138,18 +144,6 @@ myFormulaire.addEventListener('submit', function (e) {
     myError.style.fontStyle = "italic";
   };
 
-
-  //Local storage
-
-  //récup de l'id
-  let usernameVal = document.getElementById("nom").value;
-  let mailVal = document.getElementById("mail").value;
-  let passwordVal = document.getElementById("mdps").value;
-  
-  //envoie dans le localStorage
-  localStorage.setItem("nom",usernameVal);
-  localStorage.setItem("mail",mailVal);
-  localStorage.setItem("mdps",passwordVal);
 });
 
 

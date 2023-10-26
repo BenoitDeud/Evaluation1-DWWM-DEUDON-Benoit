@@ -1,7 +1,7 @@
 // Récupérer le nom
-let nom = localStorage.getItem('nom');
-console.log(nom);
-document.getElementById("nom").innerHTML = nom;
+let prenom = localStorage.getItem('prenom');
+console.log(prenom);
+document.getElementById("prenom").innerHTML = prenom;
 
 
 // Date 
