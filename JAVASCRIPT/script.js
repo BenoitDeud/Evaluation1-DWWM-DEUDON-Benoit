@@ -6,7 +6,7 @@ myFormulaire.addEventListener('submit', function (e) {
   //Nom
 
   let myNom = document.getElementById("nom")
-  let regexNom = /^(?=.{3,})[A-Za-z-\-/-é-è-ô-î-ï]*$/;
+  let regexNom = /^(?=.{3,})[(A-Za-z-\-/-é-è-ô-î-ï)]*$/;
 
   if (myNom.value == "") {
     let myError = document.getElementById("error");

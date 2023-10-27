@@ -30,44 +30,45 @@
   </header>
 
   <main>
-  <div class="presentationCrudite">
-    <img src="../IMAGES/salade-fraiche-angle-eleve-plaque-noire.jpg" alt="salade" class="img-fluid salade">
-    <div class="blablaCrudite">
-      <h3>La Salade</h3>
-      <p class="texteCrudite">La salade est un terme générique désignant en jardinage et horticulture diverses sortes
-        de feuilles, c'est-à-dire de plantes potagères dont les feuilles, consommées crues, entrent dans la
-        composition d'un mets froid dont elles ont pris le nom, la « salade », sous-entendu « salade verte ». Les
-        salades sont des plantes angiospermes. Venez discuter des meilleures variétées pour agrémenter votre Kebab.
-      </p>
+    <div class="presentationCrudite">
+      <img src="../IMAGES/salade-fraiche-angle-eleve-plaque-noire.jpg" alt="salade" class="img-fluid salade">
+      <div class="blablaCrudite">
+        <h3>La Salade</h3>
+        <p class="texteCrudite">La salade est un terme générique désignant en jardinage et horticulture diverses sortes
+          de feuilles, c'est-à-dire de plantes potagères dont les feuilles, consommées crues, entrent dans la
+          composition d'un mets froid dont elles ont pris le nom, la « salade », sous-entendu « salade verte ». Les
+          salades sont des plantes angiospermes. Venez discuter des meilleures variétées pour agrémenter votre Kebab.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th colspan="4">Les sujets concernant la salade</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>#</th>
-        <th>Sujet</th>
-        <th>Date de création</th>
-        <th>Auteur</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td><a href="" class="sujet1">La Salade Verte</a></td>
-        <td>26/10/2023</td>
-        <td>Admin</td>
-      </tr>
-    </tbody>
-  </table>
+    <table id="tableau">
+      <thead>
+        <tr>
+          <th colspan="4">Les sujets concernant la salade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>#</th>
+          <th>Sujet</th>
+          <th>Date de création</th>
+          <th>Auteur</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <form id="ajouterLigne">
+      <label for="sujet">Titre du sujet</label>
+      <input type="text" name="sujet" id="sujet">
+      <input type="submit" value="Ajouter un sujet" id="ajouterSujet">
+    </form>
 
 
   </main>
-
+  <script src="../JAVASCRIPT/ligneSujet.js"></script>
   <script src="../JAVASCRIPT/recuperation2.js"></script>
+
 </body>
 
 </html>

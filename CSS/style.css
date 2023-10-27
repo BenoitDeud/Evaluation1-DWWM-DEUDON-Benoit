@@ -296,35 +296,6 @@ h3 {
     text-shadow: 2px 2px black;
 }
 
-
-/* tableau SALADE TOMATE OIGNON */
-table {
-    color: white;
-    font-size: 30px;
-    border-top: solid 2px white;
-    width: 70%;
-    margin-left: 15%;
-    text-align: center;
-
-}
-
-th {
-    border-top: solid 2px white;
-    padding: 1%;
-}
-
-.sujet1 {
-    color: white;
-    font-size: 30px;
-
-}
-
-td {
-    padding: 1%;
-    border-top: solid 2px white;
-}
-
-
 .presentationCruditeOignon {
     margin-top: 2%;
     display: flex;
@@ -336,6 +307,76 @@ td {
     width: 80%;
     background: linear-gradient(115deg, rgba(216, 122, 199, 0.8), rgba(124, 6, 83, 0.7)), url(../IMAGES/vue-laterale-du-panier-plein-oignons-rouges-fond-bois.jpg);
     margin-bottom: 2%;
+}
+
+
+/* tableau SALADE TOMATE OIGNON */
+table {
+    color: white;
+    font-size: 30px;
+    border-top: solid 2px white;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+th {
+    border-top: solid 2px white;
+    padding: 1%;
+    height: auto;
+    width: auto;
+   
+}
+
+.sujet1 {
+    color: white;
+    font-size: 30px;
+
+}
+
+td {
+    padding: 1%;
+    border-top: solid 2px white;
+    height: auto;
+    width: auto;
+}
+
+#ajouterLigne{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 2%;
+    
+}
+
+#ajouterSujet {
+    padding: 1%;
+    width: 20%;
+}
+
+#ajouterSujet:hover{
+    background-color: #19c127;
+}
+
+/* PAGE Commentaire */
+
+.sujetCommentaire{
+    color: white;
+    margin-top: 2%;
+    font-size: 60px;
+    text-align: center;
+}
+
+.courtois{
+    color: white;
+    margin-top: 1%;
+    font-size: 30px;
+    text-align: center;
 }
 
 /* Responsive tablette*/
