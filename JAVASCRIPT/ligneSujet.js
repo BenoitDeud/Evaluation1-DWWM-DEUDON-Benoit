@@ -35,7 +35,7 @@ ajouterUneLigne.addEventListener('submit', function (e) {
     // association des cellules avec les données à renvoyer dans le tableau
     cell1.appendChild(lien);
     cell2.textContent = new Date().toLocaleDateString();
-    cell3.textContent = localStorage.getItem('prenom'); 
+    cell3.textContent = localStorage.getItem('prenom')+(" ")+localStorage.getItem("nom"); 
 });
 
 

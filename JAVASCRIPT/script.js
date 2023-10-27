@@ -6,7 +6,7 @@ myFormulaire.addEventListener('submit', function (e) {
   //Nom
 
   let myNom = document.getElementById("nom")
-  let regexNom = /^(?=.{3,})[(A-Za-z-\-/-é-è-ô-î-ï)]*$/;
+  let regexNom = /^(?=.{3,})[A-Za-zéèîïô\-/]*$/;
 
   if (myNom.value == "") {
     let myError = document.getElementById("error");
@@ -20,7 +20,7 @@ myFormulaire.addEventListener('submit', function (e) {
   else if (regexNom.test(myNom.value) == false) {
 
     let myError = document.getElementById("error");
-    myError.innerHTML = " Veuillez remplir le champ nom avec 3 caractères minimum";
+    myError.innerHTML = " Veuillez remplir le champ nom avec 3 caractères minimum et sans chiffre";
     myError.style.color = 'red';
     myError.style.fontStyle = "italic";
     e.preventDefault("");
@@ -30,11 +30,13 @@ myFormulaire.addEventListener('submit', function (e) {
     myError.innerHTML = " Salade";
     myError.style.color = 'green';
     myError.style.fontStyle = "italic";
+    let usernameVal = document.getElementById("nom").value;
+    localStorage.setItem("nom",usernameVal);
   };
 
   //Prenom
   let myPrenom = document.getElementById("prenom");
-  let regexPrenom = /^(?=.{3,})[A-Za-z-\-/-é-è-ô-î-ï]*$/;
+  let regexPrenom = /^(?=.{3,})[A-Za-zéèîïô\-/]*$/;
 
   if (myPrenom.value == "") {
     let myErrorDeux = document.getElementById("errorDeux");
@@ -47,7 +49,7 @@ myFormulaire.addEventListener('submit', function (e) {
   else if (regexPrenom.test(myPrenom.value) == false) {
 
     let myErrorDeux = document.getElementById("errorDeux");
-    myErrorDeux.innerHTML = " Veuillez remplir le champ prenom avec 3 caractères mini";
+    myErrorDeux.innerHTML = " Veuillez remplir le champ prenom avec 3 caractères mini et sans chiffre";
     myErrorDeux.style.color = 'red';
     myErrorDeux.style.fontStyle = "italic";
     e.preventDefault("");
