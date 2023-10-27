@@ -35,4 +35,5 @@ ajouterUnCommentaire.addEventListener("submit", function(e){
     cel1.textContent = new Date().toLocaleTimeString();
     cel2.textContent = localStorage.getItem("commentaire");
 
+
 });

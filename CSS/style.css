@@ -418,7 +418,15 @@ td {
     padding: 1%;
 }
 #ajouterCommentaire:hover{
-    background-color: rgb(29, 71, 145);
+    background-color: #252552;
+    color: white;
+}
+.forumBouge{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 2%;
+    font-weight: bold;
+    text-decoration:double 5px white;
 }
 
 /* Responsive tablette*/
