@@ -350,13 +350,13 @@ td {
     gap: 10px;
     color: white;
     font-size: 30px;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     
 }
 
 #ajouterSujet {
     padding: 1%;
-    width: 20%;
+    width: 50%;
 }
 
 #ajouterSujet:hover{
@@ -383,6 +383,7 @@ td {
     margin-top: 2%;
     font-size: 60px;
     text-align: center;
+    font-weight: bold;
 }
 
 .courtois{
@@ -400,7 +401,7 @@ td {
     gap: 10px;
     color: white;
     font-size: 30px;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .uti{
@@ -511,6 +512,79 @@ td {
         font-size: 30px;
     }
 
+
+    /* Page sujet tablette */
+    .blablaCrudite{
+        width: 100%;
+    }
+    .presentationCrudite{
+        display: flex;
+        flex-direction: column;
+        border: solid white 2px;
+        border-radius: 0%;
+    }
+    .presentationCruditeTomate{
+        display: flex;
+        flex-direction: column;
+        border: solid white 2px;
+        border-radius: 0%;
+    }
+    .presentationCruditeOignon{
+        display: flex;
+        flex-direction: column;
+        border: solid white 2px;
+        border-radius: 0%;
+    }
+    .salade{
+        width: 100%;
+        height: 300px;
+    }
+    #tableau{
+        font-size: 30px;
+    }
+    .sujet1{
+        font-size: 30px;
+    }
+    #ajouterSujet{
+        width: 50%;
+        font-size: 20px;
+        padding: 1%;
+    }
+    #ajouterSujet:hover{
+        background-color: #c11919;
+    }
+    #ajouterLigne{
+        margin-bottom: 10%;
+    }
+
+    /* responsive commentaire tablette */
+    .sujetCommentaire{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .courtois{
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+    #tableauCommentaire{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 30px;
+        margin-bottom: 15%;
+    }
+    #commentaire{
+        height: 300px;
+    }
+    #ajouterCommentaire{
+        width: 80%;
+        font-size: 30px;
+    }
+    #ajouterLigneCommentaire{
+        margin-bottom: 15%;
+    }
+    
+
 }
 
 /*responsive mobile*/
@@ -538,6 +612,11 @@ td {
     header {
         font-size: 30px;
     }
+
+    h2{
+        font-size: 30px;
+    }
+    
 
     .boutons {
         margin-left: 28%;
@@ -602,5 +681,76 @@ td {
 
     .blablaKebab {
         font-size: 20px;
+    }
+
+
+    /* Page sujet mobile */
+    .blablaCrudite{
+        display: none;
+    }
+    .presentationCrudite{
+        border: solid white 2px;
+        border-radius: 0%;
+    }
+    .presentationCruditeTomate{
+        border: solid white 2px;
+        border-radius: 0%;
+    }
+    .presentationCruditeOignon{
+        border: solid white 2px;
+        border-radius: 0%;
+    }
+    .salade{
+        width: 100%;
+        height: 300px;
+    }
+    #tableau{
+        margin-left: 5%;
+        width: 90%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .sujet1{
+        font-size: 20px;
+    }
+    #ajouterSujet{
+        width: 50%;
+        font-size: 20px;
+        padding: 1%;
+    }
+    #ajouterSujet:hover{
+        background-color: #c11919;
+    }
+    #ajouterLigne{
+        margin-bottom: 15%;
+    }
+
+
+    /*page commentaire mobile*/
+
+    .sujetCommentaire{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .courtois{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    #tableauCommentaire{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
+        margin-bottom: 15%;
+    }
+    #commentaire{
+        height: 200px;
+    }
+    #ajouterCommentaire{
+        width: 80%;
+        font-size: 20px;
+    }
+    #ajouterLigneCommentaire{
+        margin-bottom: 15%;
     }
 }
