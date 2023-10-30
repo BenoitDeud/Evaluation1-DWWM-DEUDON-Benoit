@@ -24,7 +24,7 @@ myFormulaire.addEventListener('submit', function (e) {
     myError.style.color = 'red';
     myError.style.fontStyle = "italic";
     e.preventDefault("");
-  } 
+  } // Si le résultat est bon
   else {
     let myError = document.getElementById("error");
     myError.innerHTML = " Salade";

@@ -1,16 +1,17 @@
 let prenom = localStorage.getItem('prenom');
 console.log(prenom);
-document.getElementById("prenom").innerHTML = prenom;
+document.getElementById("prenom").textContent = prenom;
 
 let date = new Date();
-document.getElementById('dateToday').innerHTML = date.toLocaleDateString();
-document.getElementById('heure').innerHTML = date.toLocaleTimeString();
+console.log(date);
+document.getElementById('dateToday').textContent = date.toLocaleDateString();
+document.getElementById('heure').textContent = date.toLocaleTimeString();
 
 let date2 = new Date();
-document.getElementById('heure2').innerHTML = date2.toLocaleTimeString();
+document.getElementById('heure2').textContent = date2.toLocaleTimeString();
 
 let recupSujet = localStorage.getItem("sujet");
-document.getElementById("sujet").innerHTML = recupSujet;
+document.getElementById("sujet").textContent = recupSujet;
 
 
 /* ajout commentaire*/

@@ -13,7 +13,7 @@ ajouterUneLigne.addEventListener('submit', function (e) {
     // récup l'id du tableau
     let tableau = document.getElementById("tableau");
 
-    // insert une la ligne tu tableau à la fin du tableau
+    // insert une la ligne du tableau à la fin du tableau
     let row = tableau.insertRow(-1);
 
     // les lignes qui seront ajoutées
