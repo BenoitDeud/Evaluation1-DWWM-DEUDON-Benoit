@@ -5,11 +5,11 @@ Figma  [lien FIGMA](https://www.figma.com/file/HouT7jopANcgokqGANfR0C/EXAM-DWWM?
 
 Bonjour, voici le projet d'évalaution du DWWM de la SOFIP à Valenciennes.<br>
 Il s'agit d'un forum sur le kebab mais plus précisement sur les crudités qui l'accompagnent, se qui a tendance à générer de vives débats au sein de la communautée. L'idée de ce forum est de pouvoir identifier une combinaison d'aliment qui pourra satifsfaire le plus grand nombre à l'aide des débats que nos sujets vont générer.<br>
-Nous savons pertenimment que chaque personne à ses préfèrences mais toutefois il sera possible d'en dégager une tendance et ainsi aiguiller les personnes septique de gouter un kebab en leur proposant un ensemble de choix qui seront considérés comme "basique".<br><br>
+Nous savons pertenimment que chaque personne à ses préfèrences mais toutefois il sera possible d'en dégager une tendance et ainsi aiguiller les personnes septique de gouter un kebab en leur proposant un ensemble de choix qui seront considérés comme "basique".<br>
 
 ## La réalisation du projet <br>
 
-Pour mener à bien ce projet, j'ai du utiliser différent langage informatique comme le HTML et le CSS pour structurer ma page ainsi que pour l'agrémenter de diverses décorations. Le JavaScript à était utilisé afin de rendre certains éléments de ma page intéractifs et pour utiliser le local storage pour récupérer les données saisies. Enfin j'ai également utilisé 2 site externe : FIGMA pour la réalisation de la maquette qui a servi de base pour le forum et bootstrap pour gagner du temps sur certains éléments. Le site est également dit responsive pour correspondre à la taille des écrans des tablettes et des smartphones.<br><br>
+Pour mener à bien ce projet, j'ai du utiliser différent langage informatique comme le HTML et le CSS pour structurer ma page ainsi que pour l'agrémenter de diverses décorations. Le JavaScript à était utilisé afin de rendre certains éléments de ma page intéractifs et pour utiliser le local storage pour récupérer les données saisies. Enfin j'ai également utilisé 2 site externe : FIGMA pour la réalisation de la maquette qui a servi de base pour le forum et bootstrap pour gagner du temps sur certains éléments. Le site est également dit responsive pour correspondre à la taille des écrans des tablettes et des smartphones.<br>
 
 On retrouve sur le forum : <br>
 
