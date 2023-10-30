@@ -1,5 +1,10 @@
 # Un Kebab Chef!<br>
+how to get this work, install git bash, in your desk (computer), right click -> git bash here, after that, a window open, in that window write or copy (you need to click right and paste with that method) (git clone space https://github.com/BenoitDeud/Evaluation1-DWWM-DEUDON-Benoit.git). Enjoy!
+
+Pour obtenir le travail, il faut installer git bash, sur votre bureau d'ordinateur, clique droit -> git bash here, il faut ensuite écrire ou coller (il faut faire clique droit paste pour cette méthode) (git clone espace https://github.com/BenoitDeud/Evaluation1-DWWM-DEUDON-Benoit.git). En joie!
 ## FR<br>
+
+
 
 Figma  [lien FIGMA](https://www.figma.com/file/HouT7jopANcgokqGANfR0C/EXAM-DWWM?type=design&node-id=1%3A50&mode=design&t=4Xv33B6FNVsYsZ5q-1)<br>
 
