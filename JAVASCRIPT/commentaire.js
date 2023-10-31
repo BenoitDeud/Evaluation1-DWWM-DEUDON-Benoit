@@ -19,10 +19,14 @@ document.getElementById("sujet").textContent = recupSujet;
 let ajouterUnCommentaire = document.getElementById("ajouterLigneCommentaire")
 ajouterUnCommentaire.addEventListener("submit", function(e){
 
-    let commentaire = document.getElementById("commentaire").value;
-    localStorage.setItem("commentaire", commentaire);
-
     e.preventDefault("");
+    
+    let commentaireVide = document.getElementById("commentaire");
+
+    let commentaire = commentaireVide.value.trim();
+    
+    if (commentaire !== "") {
+    localStorage.setItem("commentaire", commentaire);
 
     let espaceCommentaire = document.getElementById("tableauCommentaire");
 
@@ -36,6 +40,17 @@ ajouterUnCommentaire.addEventListener("submit", function(e){
     cel1.textContent = new Date().toLocaleTimeString();
     cel2.textContent = localStorage.getItem("commentaire");
     
+    commentaireVide.value = "";
+
+    let myError = document.getElementById("error");
+    myError.innerHTML = "";
+    
+} else {
+    let myError = document.getElementById("error");
+    myError.innerHTML = " Veuillez écrire quelque chose avant de l'envoyer";
+    myError.style.color = 'red';
+    myError.style.fontStyle = "italic";
+}
 });
 
 

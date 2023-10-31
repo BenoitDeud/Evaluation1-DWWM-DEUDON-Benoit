@@ -549,9 +549,10 @@ td {
     #tableau{
         font-size: 30px;
     }
-    .sujet1{
+    .sujet1 {
         font-size: 30px;
     }
+    
     #ajouterSujet{
         width: 50%;
         font-size: 20px;
